@@ -3,7 +3,7 @@ Summary:	Text-Filter perl module
 Summary(pl):	Modu³ perla Text-Filter
 Name:		perl-Text-Filter
 Version:	1.7
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
