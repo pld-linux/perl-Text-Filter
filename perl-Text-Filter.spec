@@ -4,10 +4,10 @@ Summary(pl):	Modu³ perla Text-Filter
 Name:		perl-Text-Filter
 Version:	1.7
 Release:	3
-Copyright:	GPL
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Text/Text-Filter-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Text/Text-Filter-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 %requires_eq	perl
@@ -15,10 +15,12 @@ Requires:	%{perl_sitearch}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Text-Filter - base class for objects that can read and write text lines.
+Text-Filter - base class for objects that can read and write text
+lines.
 
 %description -l pl
-Text-Filter - podstawowa klasa obiektów czytaj±cych i zapisuj±cych do pliku.
+Text-Filter - podstawowa klasa obiektów czytaj±cych i zapisuj±cych do
+pliku.
 
 %prep
 %setup -q -n Text-Filter-%{version}
