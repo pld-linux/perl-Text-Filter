@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Text
 %define	pnam	Filter
-%include	/usr/lib/rpm/macros.perl
 Summary:	Text-Filter perl module
 Summary(pl):	Modu³ perla Text-Filter
 Name:		perl-Text-Filter
 Version:	1.7
-Release:	7
-
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -24,7 +23,7 @@ Text-Filter - podstawowa klasa obiektów czytaj±cych i zapisuj±cych do
 pliku.
 
 %prep
-%setup -q -n Text-Filter-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
