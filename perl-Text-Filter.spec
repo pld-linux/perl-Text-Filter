@@ -9,7 +9,7 @@ Summary:	Text::Filter perl module
 Summary(pl):	Modu³ perla Text::Filter
 Name:		perl-Text-Filter
 Version:	1.7
-Release:	9
+Release:	10
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
