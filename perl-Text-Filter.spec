@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Text
-%define	pnam	Filter
+%define		pdir	Text
+%define		pnam	Filter
 Summary:	Text::Filter perl module
 Summary(pl):	Modu³ perla Text::Filter
 Name:		perl-Text-Filter
