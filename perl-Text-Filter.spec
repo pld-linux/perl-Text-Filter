@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Text
 %define	pnam	Filter
-Summary:	Text-Filter perl module
-Summary(pl):	Modu³ perla Text-Filter
+Summary:	Text::Filter perl module
+Summary(pl):	Modu³ perla Text::Filter
 Name:		perl-Text-Filter
 Version:	1.7
 Release:	8
@@ -15,11 +15,11 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Text-Filter - base class for objects that can read and write text
+Text::Filter - base class for objects that can read and write text
 lines.
 
 %description -l pl
-Text-Filter - podstawowa klasa obiektów czytaj±cych i zapisuj±cych do
+Text::Filter - podstawowa klasa obiektów czytaj±cych i zapisuj±cych do
 pliku.
 
 %prep
