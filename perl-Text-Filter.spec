@@ -6,7 +6,7 @@
 %define		pdir	Text
 %define		pnam	Filter
 Summary:	Text::Filter perl module
-Summary(pl):	Modu³ perla Text::Filter
+Summary(pl.UTF-8):   ModuÅ‚ perla Text::Filter
 Name:		perl-Text-Filter
 Version:	1.7
 Release:	10
@@ -23,8 +23,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Text::Filter - base class for objects that can read and write text
 lines.
 
-%description -l pl
-Text::Filter - podstawowa klasa obiektów czytaj±cych i zapisuj±cych do
+%description -l pl.UTF-8
+Text::Filter - podstawowa klasa obiektÃ³w czytajÄ…cych i zapisujÄ…cych do
 pliku.
 
 %prep
