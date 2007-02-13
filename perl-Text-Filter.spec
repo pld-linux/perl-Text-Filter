@@ -6,7 +6,7 @@
 %define		pdir	Text
 %define		pnam	Filter
 Summary:	Text::Filter perl module
-Summary(pl.UTF-8):   Moduł perla Text::Filter
+Summary(pl.UTF-8):	Moduł perla Text::Filter
 Name:		perl-Text-Filter
 Version:	1.7
 Release:	10
