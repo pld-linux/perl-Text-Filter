@@ -8,12 +8,12 @@
 Summary:	Text::Filter perl module
 Summary(pl.UTF-8):	Moduł perla Text::Filter
 Name:		perl-Text-Filter
-Version:	1.7
-Release:	10
+Version:	1.9
+Release:	1
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	3a2f2caaf3b44ae67c06cf850a42016f
+# Source0-md5:	07a37d177d45411a02b68025a542d1a8
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildArch:	noarch
@@ -48,6 +48,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc CHANGES README AVAILABILITY
+%doc CHANGES README
 %{perl_vendorlib}/Text/Filter.pm
+%{perl_vendorlib}/Text/Filter
 %{_mandir}/man3/*
